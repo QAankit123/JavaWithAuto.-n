@@ -1,24 +1,16 @@
 package AbstacctionDemo;
 
-import javax.swing.plaf.multi.MultiButtonUI;
+import javax.security.auth.Subject;
 
-public  class A {
+public abstract class A {
 
-	public final void Sum(int a,int b) {
-		// TODO Auto-generated method stub
-      System.out.println(a+b);
+	public void Sum(int a, int b) {
+		System.out.println(a+b);
 	}
 	
-	//public abstract void Sub(int a,int b);
-	
-    //public abstract void Mul1(int a, int b); 
-		// TODO Auto-generated method stub
-
-	
+	public abstract void Sub(int a,int b) ;
 		
-	
-	
-	
+
 	
 	
 }

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+   <parameter name ="browser" value ="Chrome"/>
+   <packages>
+  
+  <package name ="org.Enterprise.Base"></package>
+  <package name ="org.Enterprise.Page"></package>
+  <package name ="org.Enterprise.TestCase"></package>
+  </packages>
+   
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

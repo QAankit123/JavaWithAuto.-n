@@ -11,14 +11,15 @@ public class HasSet1 {
 		
 		
 
-		HashSet HS =new HashSet();
-		HS.add("ankit");
+		HashSet <Integer>HS =new HashSet<Integer>();
+		//HS.add("ankit");
 		HS.add(15);
 		HS.add(13);
 		HS.add(15);
-		HS.add(13.5);
-		HS.add(true);
+		//HS.add(13.5);
+		//HS.add(true);
 		System.out.println(HS);
+		
 		
 		
 		

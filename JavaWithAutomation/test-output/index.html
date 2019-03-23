@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>C:\Users\Ankit.Shrivastava\AppData\Local\Temp\testng-eclipse-303180732\testng-customsuite.xml</span>
+                    <span>C:\Users\Ankit.Shrivastava\AppData\Local\Temp\testng-eclipse-803258104\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -102,12 +102,12 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="JnitTest.TestNGSecond" hash-for-method="Compose">Compose</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="JnitTest.TestNGFlow" hash-for-method="action5">action5</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="JnitTest.TestNGSecond" hash-for-method="Login">Login</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="JnitTest.TestNGFlow" hash-for-method="action6">action6</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -125,21 +125,21 @@
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">JnitTest.TestNGSecond</span>
+              <span class="class-name">JnitTest.TestNGFlow</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="Compose">
-                  </a> <!-- Compose -->
-                  <span class="method-name">Compose</span>
+                  <a name="action5">
+                  </a> <!-- action5 -->
+                  <span class="method-name">action5</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="Login">
-                  </a> <!-- Login -->
-                  <span class="method-name">Login</span>
+                  <a name="action6">
+                  </a> <!-- action6 -->
+                  <span class="method-name">action6</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -147,7 +147,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Ankit.Shrivastava\AppData\Local\Temp\testng-eclipse-303180732\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\Ankit.Shrivastava\AppData\Local\Temp\testng-eclipse-803258104\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -156,7 +156,7 @@
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
   &lt;test thread-count=&quot;5&quot; verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;JnitTest.TestNGSecond&quot;/&gt;
+      &lt;class name=&quot;JnitTest.TestNGFlow&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -198,18 +198,18 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(2);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'Compose')
-data.setCell(0, 2, 'JnitTest.TestNGSecond')
-data.setCell(0, 3, 12);
+data.setCell(0, 1, 'action5')
+data.setCell(0, 2, 'JnitTest.TestNGFlow')
+data.setCell(0, 3, 6);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'Login')
-data.setCell(1, 2, 'JnitTest.TestNGSecond')
+data.setCell(1, 1, 'action6')
+data.setCell(1, 2, 'JnitTest.TestNGFlow')
 data.setCell(1, 3, 1);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 13 ms</span>
+              <span class="suite-total-time">Total running time: 7 ms</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -235,31 +235,55 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">JnitTest.TestNGSecond</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">BrowserStart</span>
+              <div class="chronological-class-name">JnitTest.TestNGFlow</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">action4</span>
                 <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-test before">
+                <span class="method-name">action3</span>
+                <span class="method-start">15 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">action1</span>
+                <span class="method-start">22 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">action2</span>
+                <span class="method-start">33 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">Compose</span>
-                <span class="method-start">7 ms</span>
+                <span class="method-name">action5</span>
+                <span class="method-start">36 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">BrwserClose</span>
-                <span class="method-start">20 ms</span>
+                <span class="method-name">action8</span>
+                <span class="method-start">45 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">BrowserStart</span>
-                <span class="method-start">22 ms</span>
+                <span class="method-name">action2</span>
+                <span class="method-start">46 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">Login</span>
-                <span class="method-start">23 ms</span>
+                <span class="method-name">action6</span>
+                <span class="method-start">46 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">BrwserClose</span>
-                <span class="method-start">25 ms</span>
+                <span class="method-name">action8</span>
+                <span class="method-start">49 ms</span>
               </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">action9</span>
+                <span class="method-start">50 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-test after">
+                <span class="method-name">action7</span>
+                <span class="method-start">51 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-suite after">
+                <span class="method-name">action10</span>
+                <span class="method-start">102 ms</span>
+              </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

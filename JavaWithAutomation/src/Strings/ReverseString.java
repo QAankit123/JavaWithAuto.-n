@@ -12,9 +12,9 @@ public class ReverseString {
 			rev=rev+s.charAt(i);
 	
 		}
-			System.out.print(rev);
+			System.out.println(rev);
 		
-			
+			System.out.println(len);
 		
 		
 		

@@ -2,12 +2,18 @@ package StaticThisFinalSuper;
 
 public class Z  {
 
-	int z=50;
-	public void Welcome() {
-		System.out.println("Parent Welcome super");
+	
+	public static void main (String srgs []){
 		
+		String s = new String ("  ABCD  ");
+		System.out.println(s.trim().length());
+		
+		
+		
+		
+	}
 		
 	}
 	
 	
-}
+
